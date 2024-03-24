@@ -1,0 +1,69 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Swift PM
+.build/
+
+# Package.resolved for Swift PM is usually ignored, but may be needed for CI/CD purposes
+# .swiftpm/xcode/package.resolved
+
+# Others
+*.swp
+*.swo
+*~
+!.gitignore
+!README.md
+
+# OS X specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ignore GoogleService-Info.plist file
+GoogleService-Info.plist
+
